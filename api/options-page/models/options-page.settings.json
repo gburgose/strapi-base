@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "options_pages",
+  "info": {
+    "name": "options",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "sitename": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "cellphone": {
+      "type": "biginteger"
+    },
+    "whatsapp": {
+      "type": "biginteger"
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
