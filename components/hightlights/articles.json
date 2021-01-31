@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_hightlights_articles",
+  "info": {
+    "name": "articles",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "article": {
+      "unique": true,
+      "model": "article"
+    }
+  }
+}

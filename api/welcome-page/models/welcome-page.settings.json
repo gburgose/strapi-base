@@ -15,6 +15,11 @@
       "type": "component",
       "repeatable": false,
       "component": "seo.seo"
+    },
+    "articles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hightlights.articles"
     }
   }
 }
