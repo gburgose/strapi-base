@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_hero_hero_defaults",
+  "info": {
+    "name": "hero default",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "private": false,
+      "unique": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
