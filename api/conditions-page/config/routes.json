@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/conditions-page",
+      "handler": "conditions-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/conditions-page",
+      "handler": "conditions-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/conditions-page",
+      "handler": "conditions-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

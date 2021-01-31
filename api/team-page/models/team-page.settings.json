@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "team_page",
+  "info": {
+    "name": "team"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}

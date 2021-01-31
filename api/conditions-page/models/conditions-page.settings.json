@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "conditions_page",
+  "info": {
+    "name": "conditions",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}
