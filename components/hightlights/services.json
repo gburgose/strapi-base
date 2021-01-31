@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_hightlights_services",
+  "info": {
+    "name": "services",
+    "icon": "file-archive"
+  },
+  "options": {},
+  "attributes": {
+    "service": {
+      "model": "service"
+    }
+  }
+}

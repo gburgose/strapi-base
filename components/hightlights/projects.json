@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_hightlights_projects",
+  "info": {
+    "name": "projects",
+    "icon": "file-alt"
+  },
+  "options": {},
+  "attributes": {
+    "project": {
+      "unique": true,
+      "model": "project"
+    }
+  }
+}

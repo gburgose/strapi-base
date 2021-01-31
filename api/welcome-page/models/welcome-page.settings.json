@@ -14,12 +14,25 @@
     "seo": {
       "type": "component",
       "repeatable": false,
-      "component": "seo.seo"
+      "component": "global.seo"
     },
     "articles": {
       "type": "component",
       "repeatable": true,
-      "component": "hightlights.articles"
+      "component": "hightlights.articles",
+      "max": 3
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hightlights.projects",
+      "max": 3
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hightlights.services",
+      "max": 3
     }
   }
 }

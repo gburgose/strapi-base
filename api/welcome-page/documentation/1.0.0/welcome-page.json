@@ -455,7 +455,100 @@
                   }
                 }
               }
-            }
+            },
+            "maxItems": 3
+          },
+          "projects": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "project": {
+                  "required": [
+                    "id"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "content": {
+                      "type": "string"
+                    },
+                    "slug": {
+                      "type": "uid"
+                    },
+                    "image": {
+                      "type": "string"
+                    },
+                    "published_at": {
+                      "type": "string"
+                    },
+                    "created_by": {
+                      "type": "string"
+                    },
+                    "updated_by": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "maxItems": 3
+          },
+          "services": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "service": {
+                  "required": [
+                    "id"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "content": {
+                      "type": "string"
+                    },
+                    "slug": {
+                      "type": "uid"
+                    },
+                    "image": {
+                      "type": "string"
+                    },
+                    "published_at": {
+                      "type": "string"
+                    },
+                    "created_by": {
+                      "type": "string"
+                    },
+                    "updated_by": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "maxItems": 3
           }
         }
       },
@@ -593,7 +686,100 @@
                   }
                 }
               }
-            }
+            },
+            "maxItems": 3
+          },
+          "projects": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "project": {
+                  "required": [
+                    "id"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "content": {
+                      "type": "string"
+                    },
+                    "slug": {
+                      "type": "uid"
+                    },
+                    "image": {
+                      "type": "string"
+                    },
+                    "published_at": {
+                      "type": "string"
+                    },
+                    "created_by": {
+                      "type": "string"
+                    },
+                    "updated_by": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "maxItems": 3
+          },
+          "services": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "service": {
+                  "required": [
+                    "id"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "content": {
+                      "type": "string"
+                    },
+                    "slug": {
+                      "type": "uid"
+                    },
+                    "image": {
+                      "type": "string"
+                    },
+                    "published_at": {
+                      "type": "string"
+                    },
+                    "created_by": {
+                      "type": "string"
+                    },
+                    "updated_by": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "maxItems": 3
           },
           "created_by": {
             "type": "string"
