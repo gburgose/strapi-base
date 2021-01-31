@@ -20,6 +20,26 @@
       "type": "component",
       "repeatable": false,
       "component": "hero.hero-default"
+    },
+    "mission": {
+      "type": "component",
+      "repeatable": false,
+      "component": "introduce.default"
+    },
+    "vision": {
+      "type": "component",
+      "repeatable": false,
+      "component": "introduce.default"
+    },
+    "values": {
+      "type": "component",
+      "repeatable": false,
+      "component": "introduce.default"
+    },
+    "objectives": {
+      "type": "component",
+      "repeatable": false,
+      "component": "introduce.default"
     }
   }
 }
