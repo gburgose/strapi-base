@@ -747,7 +747,7 @@
               }
             }
           },
-          "objectives": {
+          "objetives": {
             "type": "object",
             "required": [
               "id"
@@ -1259,7 +1259,7 @@
               }
             }
           },
-          "objectives": {
+          "objetives": {
             "type": "object",
             "required": [
               "id"
