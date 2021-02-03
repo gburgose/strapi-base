@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_social_socials",
+  "info": {
+    "name": "links",
+    "icon": "coins",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    }
+  }
+}

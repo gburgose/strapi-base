@@ -16,6 +16,11 @@
       "repeatable": false,
       "component": "global.seo"
     },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero-default"
+    },
     "articles": {
       "type": "component",
       "repeatable": true,

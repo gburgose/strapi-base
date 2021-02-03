@@ -44,6 +44,11 @@
     "email": {
       "type": "string",
       "required": true
+    },
+    "rrss": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social.social"
     }
   }
 }

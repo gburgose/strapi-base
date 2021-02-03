@@ -414,6 +414,23 @@
           },
           "email": {
             "type": "string"
+          },
+          "rrss": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "link": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -445,6 +462,23 @@
           },
           "email": {
             "type": "string"
+          },
+          "rrss": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "link": {
+                  "type": "string"
+                }
+              }
+            }
           },
           "created_by": {
             "type": "string"
